@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "parkbook.config.AppProperties",
+      "name": "app",
+      "type": "parkbook.config.AppProperties"
+    },
+    {
+      "sourceType": "parkbook.config.AppProperties",
+      "name": "app.auth",
+      "sourceMethod": "getAuth()",
+      "type": "parkbook.config.AppProperties$Auth"
+    },
+    {
+      "sourceType": "parkbook.config.AppProperties",
+      "name": "app.oauth2",
+      "sourceMethod": "getOauth2()",
+      "type": "parkbook.config.AppProperties$OAuth2"
+    }
+  ],
+  "properties": []
+}
